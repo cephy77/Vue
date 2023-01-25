@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin: 0;
+  font-family: "VT323", monospace;
+  font-size: xx-large;
+  background-color: #0101a7;
+}
+.counter {
+  display: flex;
+  position: relative;
+  width: 320px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #cdcdcf;
+}
+.counter__label {
+  position: absolute;
+  top: -32px;
+  color: #cdcdcf;
+}
+.counter__display {
+  width: 200px;
+  height: 34px;
+  text-align: center;
+  user-select: none;
+  background-color: rgb(239, 239, 239);
+  border: inset 2px;
+  border-color: #cdcdcf black black #cdcdcf;
+}
+.counter__button {
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 0;
+  width: 38px;
+}
